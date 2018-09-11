@@ -5,8 +5,8 @@ class yang():
 		self.age = age
 		print('咩咩咩')
 	def eat(self):
-		print('吃草')
+		print('青草蛋糕')
 
-huahua = yang('huahhau',6)
+huahua = yang('花花',6)
 huahua.eat()
 print(huahua.name)
