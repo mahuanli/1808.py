@@ -1,29 +1,33 @@
-class Ananil(object):
+class Animal(object):
+    def __init__(self,name):
+        self.name = name   
+        self.age = 5
+    def eat(self):
+        print("吃")
+
+    def sleep(self):
+        print("睡")
+
+    
+class Cat(Animal):
+    pass
+
+class Dog(Animal):
+    pass
+
+class Person(Animal):
+    pass
+
+tom = Cat("tom")
+hsq = Dog("hsq")
+tom.eat()
+tom.sleep()
+
+hsq.eat()
+hsq.sleep()
 
 
-
-
-
-
-
-	def eat (self):
-		print('吃')
-	def sleep (self):
-		print('睡')
-
-
-class cat(Ananil):
-	pass
-class dog(Ananil):
-	pass
-class person(Ananil):
-	pass
-
-bsm = cat
-pp = dog
-bsm.eat()
-hsm.sleep()
-
-pp.eat()
-pp.sleep()
-
+print(tom.name)
+print(hsq.name)
+print(tom.age)
+print(hsq.age)
