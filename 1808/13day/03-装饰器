@@ -1,0 +1,4 @@
+from time import ctime, sleep
+
+def timefun_arg(pre='haha'):
+	def
